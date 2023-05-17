@@ -1,5 +1,11 @@
 # Grocery Store Price Tracker
-The Grocery Store Price tracker is a desktop application written in Python using the PySimpleGUI framework.
+The Grocery Store Price tracker is a desktop application written in Python using the PySimpleGUI framework.  
+
+It's purpose is to help eliminate the friction of comparing prices of items from your local grocery stores.  
+
+The idea is that after you come home from shopping, you use your receipt to enter the prices of frequent items you buy. If you go to a different grocery store, you can add the prices for that store for the same items.  
+
+This gives you a side-by-side price comparison, allowing you to easily distinguish which items you may want to buy from which store, with the ultimate goal of **saving you money!**
 
 ## Basics
 A fresh download of the application will contain a file named 'table_data.template.py'. This file must be renamed to 'table_data.py' for the application to function.  
@@ -19,11 +25,11 @@ To begin adding items, click the Add button. You will be presented with a window
 
 ![image two](/assets/readme_images/add_item_window.png)
 
-After clicking Save, the item will be saved into the table_data.py file and persisted on your list going forward.  
+After clicking Save, the item record will be saved into the table_data.py file and persisted on your list going forward.  
 
 ![image three](/assets/readme_images/initial_window_with_item.png)
 
-Your table_data.py file will continue to grow as you add more items. You also have the ability to edit an item entry, or delete it entirely, via the GUI.
+Your table_data.py file will continue to grow as you add more items. You also have the ability to edit an item record, or delete it entirely, via the GUI.
 
 ![image four](/assets/readme_images/table_data_file.png)
 
